@@ -1,4 +1,4 @@
-import Barcharts from "components/BarCharts";
+import Barchart from "components/BarChart";
 import DataTable from "components/DataTable";
 import Donutchart from "components/DonutChart";
 import Footer from "components/Footer";
@@ -14,7 +14,7 @@ function App() {
         <div className="row px-3">
           <div className="col-sm-6">
             <h5 className="text-center text text-secundary">Taxa de Sucesso (%)</h5>
-            <Barcharts />
+            <Barchart />
           </div>
           <div className="col-sm-6">
             <h5 className="text-center text text-secundary">Todas as Vendas</h5>

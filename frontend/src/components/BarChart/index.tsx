@@ -1,6 +1,6 @@
 import Chart from 'react-apexcharts';
 
-const Barcharts = () => {
+const Barchart = () => {
     const options = {
         plotOptions: {
             bar: {
@@ -31,4 +31,4 @@ const Barcharts = () => {
 
 }
 
-export default Barcharts;
+export default Barchart;
